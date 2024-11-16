@@ -1,0 +1,337 @@
+/* header qismi boshladim */
+body{
+  margin: 0px;
+  padding-inline: 0px;
+}
+html{
+  scroll-behavior:smooth;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .header-qismi__bosh{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    position: fixed;
+    top: 0px;
+    background-color: whitesmoke;
+    width: 100%;
+  height: 70px;
+  box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
+z-index: 3478785478;
+  }
+  
+  .navbar-style ul li{
+    display: flex;
+  }
+  .header-qismini__1 a{
+    text-decoration: none;
+    color: rgb(28, 15, 0);
+
+  }
+  .header-qismini__1 li{
+    list-style: none;
+  }
+  .header-qismini__1{
+    display: flex;
+    gap: 32px;
+  }
+  .header-qismini__sozi h2{
+    margin: 0px 50px 0px 50px;
+  }
+  /* /header qismi boshladim */
+  /* section qismini boshladim */
+  .sectioni-birinchisi__sozlari{
+    width: 38% ;
+  }
+  .sectioni-birinchisi__sozlari h1{
+   font-size: 50px;
+    font-weight: 50px;
+  }
+  .buttonim{
+    height: 60px;
+    width: 154px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 94, 0);
+    border-radius: 50px;
+  }
+  .sectioni-birinchisi{
+    display: flex;
+  align-items: center;
+  }
+  .sectioni-birinchisi__rasmi img{
+    width: 628px;
+    height: 611px;
+  }
+  /* /section qismini boshladim */
+
+  /* sectioni ikinchi qismi */
+  .sectioni-ikinchi__qismi{
+    text-align: center;
+    font-size: 30px;
+  }
+  .section-rasm img{
+    width: 100%;
+  }
+  .section-rasm__hamasi{
+    background-color: rgb(230, 227, 227);
+    width: 23%;
+    transition: all 0.6s ease-out;
+  }
+  .section-rasm__hamasi:hover{
+    box-shadow: 0px 0px 30px 10px black;
+  }
+  .section-rasm__hamasi p{
+    text-align: center;
+margin: 7px;
+  }
+  .sectioni-ikinchi__rasmlari{
+    display: flex;
+    justify-content: space-between;
+  }
+  /* /sectioni ikinchi qismi */
+ /* sectioni uchinchi qismi */
+.sectioni-uchinchi__sozlari{
+    text-align: center;
+}
+.sectioni-uchinchi__sozlari h2{
+    font-size: 30px;
+}
+.sectioni-uchinchi__sozlari p{
+    text-align: center;  
+}
+ /* /sectioni uchinchi qismi */
+ /* sectioni tortinchi qismi */
+.sectioni-tortinchi__sozlari{
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.sectioni-tortinchi__qismi p{
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.sectioni-tortinchi__sozlari a{
+   
+    text-decoration: none;
+    color: red;
+}
+.sectioni-tortinchi__qismi{
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+}
+.sectioni-tortinchi__rasmi img{
+    margin-left: 90px;
+}
+ /* /sectioni tortinchi qismi */
+ /* sectioni beshinchi qismi*/
+.sectioni-beshinchi__qismi{
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+}
+ /* /sectioni beshinchi qismi*/
+ /* sektioni sakizinchi qismi */
+.section-sakizinchi__boshi{
+    text-align: center;
+    font-size: 30px;
+}
+.section-sakizinchi__boshi h2{
+    margin-top: 90px;
+}
+.section-sakizinchi__ishlarim{
+    width: 29%;
+    background-color: whitesmoke;
+}
+
+.section-sakizinchi__sozlari p{
+    width: 90%;
+}
+.section-sakizinchi__qismi{
+    display: flex;
+   justify-content: space-between;
+}
+ /* /sektioni sakizinchi qismi */
+ /* sectioni toqizinchi qismi */
+ .sectioni-toqizinchi__sozlar{
+    text-align: center;
+    width: 30%;
+    background-color: rgb(255, 111, 0);
+ }
+ .sectioni-toqizinchi__sozlar a button{
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+ }
+ .sectioni-toqizinchi__sozlar h2{
+    margin-top: 89px;
+    margin-bottom: 85px;
+ }
+ .sectioni-toqizinchi__ishim{
+    display: flex;
+ }
+  /* /sectioni toqizinchi qismi */
+  /* section-oninchi qismi */
+.section-oninchi__qutilari{
+    width: 90%;
+    border: 3px solid red;
+    border-radius: 3px;
+}
+.sectioni-oninchi__ikonkalari{
+  margin: 30px;
+}
+.sectioni-oninchi__ikonkalari i{
+    color: rgb(218, 153, 244);
+}
+.sectioni-oninchi__sozlari h3{
+    margin: 30px;
+}
+.sectioni-oninchi__sozlari p{
+    margin: 30px;
+}
+.sectioni-oninchi__boshi{
+    display: flex;
+ margin-top: 90px;
+}
+.section-oninchi__qutilarim{
+    width: 90%;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 3px;
+}
+.sectioni-oninchi__ikonkalarim{
+  margin: 30px;
+}
+.sectioni-oninchi__ikonkalarim i{
+    color: rgb(218, 153, 244);
+}
+.section-oninchi__qutilariz{
+    width: 90%;
+    border: 3px solid rgb(0, 8, 255);
+    border-radius: 3px;
+}
+.sectioni-oninchi__ikonkalariz{
+  margin: 30px;
+}
+.sectioni-oninchi__ikonkalariz i{
+    color: rgb(255, 217, 0);
+}
+ /* /section-oninchi qismi */
+ /* sectioni onbirinchi qismi */
+.sectioni-onbirinchi__h1lari{
+font-size: 55px;
+text-align: center;
+}
+.sectioni-onbirinchi__h4lari{
+display: flex;
+gap: 70px;
+font-size: 20px;
+margin-left: 100px;
+}
+.sectioni-onbirichi__boshi{
+    width: 100%;
+    background-color: rgb(232, 157, 146);
+}
+ /* /sectioni onbirinchi qismi */
+ /* sectioni onikinchi qismi */
+.sectioni-onikinchi__rasmi{
+    text-align: center;
+}
+.sectioni-onikinchi__sozlari{
+ text-align: center;
+}
+.sectioni-onikinchi__boshi{
+    margin-top: 90px;
+}
+
+ /* /sectioni onikinchi qismi */
+ /* sectioni onuchinchi qismi */
+.sectioni-onuchinchi__1ul a{
+text-decoration: none;
+color: black;
+}
+.sectioni-onuchinchi__1ul li{
+    list-style: none;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+.sectioni-onuchinchi__solari h3{
+    font-size: 30px;
+}
+
+.sectioni-onuchinchi__ikonkalar i{
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle; 
+}
+.sectioni-onuchinchi__ikonkalar a{
+    color: black;
+}
+.sectioni-onuchinchi__qismi{
+    margin-top: 90px;
+    background-color: rgb(248, 234, 211);
+    display: flex;
+}
+.sectioni-onuchinchi__solari{
+    margin-left: 200px;
+}
+.boshki a{
+    font-size: 20px;
+    margin-bottom: 90px;
+}
+ /* /sectioni onuchinchi qismi */
+ 
+ @media(max-width:450px){
+  body{
+    width: 100%;
+  }
+  .container{
+    max-width: 90%;
+    margin: 0 auto;
+   
+   }
+  .header-qismi__bosh{
+ display: none;
+  }
+  .sectioni-birinchisi{
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .sectioni-birinchisi__sozlari p{
+    width: 100%;
+  }
+  .sectioni-ikinchi__rasmlari{
+    flex-direction: column;
+  }
+  .sectioni-ikinchi__rasmlari img{
+  width: 900px;
+
+  }
+  .section-rasm__hamasi{
+    margin-left: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .section-rasm__hamasi{
+    background-color: rgb(230, 227, 227);
+    width: 900px;
+    transition: all 0.6s ease-out;
+ }
+ .sectioni-tortinchi__qismi{
+  flex-direction: column;
+ }
+ .sectioni-beshinchi__qismi{
+  flex-direction: column-reverse;
+ }
+ .section-sakizinchi__qismi{
+  flex-direction: column;
+ }
+ }
